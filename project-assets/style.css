@@ -5,18 +5,34 @@ body {
 }
 
 nav {
-  display: inline;
+  display: inline-block;
 }
 
-.menu-list {
-  display: inherit;
+a {
+  color: blueviolet;
+  text-decoration: none;
 }
-
+.menu-list,
 .menu-item {
   display: inherit;
+  font-size: 20px;
 }
 
 .logo {
   width: 65px;
   height: 65px;
+}
+.menu-button {
+  padding: 0.6em 1.5em;
+  color: #000000;
+  background-color: #7ae5fd;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.first-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1fdff;
 }
